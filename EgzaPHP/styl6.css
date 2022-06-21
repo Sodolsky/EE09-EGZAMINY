@@ -1,0 +1,51 @@
+header {
+  display: flex;
+}
+header > div:nth-of-type(1) {
+  text-align: center;
+  width: 75%;
+  height: 150px;
+  font-size: 200%;
+}
+header > div:nth-of-type(2) {
+  width: 25%;
+  height: 150px;
+}
+footer {
+  display: flex;
+}
+main {
+  background-color: rgb(128, 0, 0);
+  padding: 50px;
+  text-transform: uppercase;
+}
+.f,
+.t {
+  width: 20%;
+  padding-top: 90px;
+}
+.s {
+  text-align: center;
+  width: 60%;
+}
+body {
+  font-family: Arial;
+  background-color: rgb(244, 164, 96);
+  color: white;
+}
+p {
+  font-size: 150%;
+  border: 2px dotted rgb(169, 169, 169);
+}
+p:hover {
+  background-color: rgb(169, 169, 169);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid rgb(192, 192, 192);
+  padding: 5px;
+}
